@@ -11,5 +11,5 @@ showButton.addEventListener("click", () => {
   const userInput = messageInput.value;
 
   // Safe: a function is passed to setTimeout, not a string of code.
-  setTimeout(()=> showMessage(userInput), 1000);
+  setTimeout(userInput, 1000);
 });
