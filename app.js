@@ -4,7 +4,7 @@ const output = document.getElementById("output");
 
 function showMessage(userInput) {
   // Safe: textContent displays input as text instead of interpreting it as HTML.
-  output.textContent = userInput;
+  output.innerHTML = userInput;
 }
 
 showButton.addEventListener("click", () => {
